@@ -7,14 +7,39 @@
 }
 
 body {
-    
+    background-color: var(--bg-body);
+}
+
+.bg-default{
+    background-color: var(--bg-default);
 }
 
 .brand-primary-text {
     color: var(--brand-primary);
 }
 
-.welcome-block {
+.brand-secondary-text{
+    color: var(--brand-secondary);
+}
+
+.web-block {
     height: 80px;
 
+}
+h1, h2, h3, h4, h5{
+    margin: 0;
+}
+.welcome-block {
+    height: 120px;
+    width: 100%;
+    background-image:
+        /* Top Left triangle*/
+        linear-gradient(to top left, transparent 65%, var(--brand-secondary) 20%, var(--brand-primary) 10%),
+
+        /* Top Right triangle*/
+        linear-gradient(to top right, transparent 65%, var(--brand-secondary) 50%);
+    background-size: 100% 100%;
+    background-position: top;
+    background-color: white;
+    /* Width height*/
 }
