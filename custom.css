@@ -10,7 +10,7 @@ body {
     background-color: var(--bg-body);
 }
 
-.bg-default{
+.bg-default {
     background-color: var(--bg-default);
 }
 
@@ -18,7 +18,7 @@ body {
     color: var(--brand-primary);
 }
 
-.brand-secondary-text{
+.brand-secondary-text {
     color: var(--brand-secondary);
 }
 
@@ -26,9 +26,15 @@ body {
     height: 80px;
 
 }
-h1, h2, h3, h4, h5{
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     margin: 0;
 }
+
 .welcome-block {
     height: 120px;
     width: 100%;
@@ -42,4 +48,9 @@ h1, h2, h3, h4, h5{
     background-position: top;
     background-color: white;
     /* Width height*/
+}
+
+.card {
+    margin: 0;
+    height: 320px;
 }
